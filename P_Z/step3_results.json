@@ -1,0 +1,107 @@
+{
+  "total_masks": 71149350,
+  "unique_masks": 12120141,
+  "top_masks": {
+    "CLLLLSDDDD": 350580,
+    "CLLLLLSDD": 243597,
+    "CLLLLSDD": 240498,
+    "CLLLLLSDDDD": 239947,
+    "SDDCLLLLL": 238534,
+    "SDDLLLCLL": 235415,
+    "SDDCLLCLL": 235402,
+    "SDDCCCLLL": 235390,
+    "SDDLLLCCC": 235383,
+    "SDDCLLCCC": 235353,
+    "SDDCCCCLL": 235351,
+    "CLLLLLLSDDDD": 194334,
+    "CLLSCLLDDDD": 191455,
+    "CLLSLLLLDDDD": 185063,
+    "CLSLLLLLDDDD": 183157,
+    "CLLLSDDDD": 177605,
+    "CLLLSLLLDDDD": 167552,
+    "CLLSLLLDDDD": 167077,
+    "CLLLLLLLSDDDD": 150639,
+    "CLSLLLLDDDD": 145259,
+    "SDDCLLSSS": 143502,
+    "SDDSSSCLL": 143501,
+    "SSSCLLSDD": 143341,
+    "SSSSDDCLL": 143340,
+    "CLSLLLLLLDDDD": 141193,
+    "CLLSLLLLLDDDD": 135765,
+    "CLSLLLLLDD": 133380,
+    "CLLSCLLLDDDD": 130646,
+    "CLLSLLLLDD": 126900,
+    "CLLLLSLLLDDDD": 123587,
+    "CLLLSLLLLDDDD": 121069,
+    "LLLCLLSDD": 117871,
+    "CLLCLLSDD": 117595,
+    "CCCLLLSDD": 116048,
+    "CLLSDDLLL": 116043,
+    "CLLCCCSDD": 115691,
+    "CCCCLLSDD": 115679,
+    "CCCSDDLLL": 115586,
+    "LLLCCCSDD": 115577,
+    "CLLSDDCLL": 115428,
+    "LLLSDDCCC": 115365,
+    "LLLSDDCLL": 115365,
+    "CCCSDDCLL": 115323,
+    "CLLSDDCCC": 115315,
+    "CLSLLLLDD": 114087,
+    "CLLSLLLDD": 111077,
+    "CLLLSCLLDDDD": 109832,
+    "SDDCLLSDD": 109079,
+    "SDDSDDCLL": 109068,
+    "CLSLLLLLLDD": 107977
+  },
+  "mask_length_distribution": {
+    "8": 30618,
+    "9": 106755,
+    "10": 216905,
+    "11": 329191,
+    "12": 771973,
+    "13": 638286,
+    "14": 489713,
+    "15": 338890,
+    "16": 266555,
+    "17": 145139,
+    "18": 138255,
+    "19": 91146,
+    "20": 80410,
+    "21": 11436,
+    "22": 11128,
+    "23": 11056,
+    "24": 7708545,
+    "25": 11046,
+    "26": 8937,
+    "27": 8511,
+    "28": 67458,
+    "29": 6875,
+    "30": 7876,
+    "31": 10082,
+    "32": 613355
+  },
+  "pattern_complexity_stats": {
+    "level_1": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "level_2": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "level_3": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "level_4": {
+      "count": 71149350,
+      "percentage": 100.0
+    }
+  },
+  "character_set_patterns": {
+    "CDLS": {
+      "count": 71149350,
+      "percentage": 100.0
+    }
+  }
+}

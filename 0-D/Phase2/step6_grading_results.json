@@ -1,0 +1,320 @@
+{
+  "total_graded": 48189550,
+  "grade_distribution": {
+    "B": 4365288,
+    "C": 24563188,
+    "A": 7638,
+    "D": 19197587,
+    "F": 55846,
+    "A+": 3
+  },
+  "score_distribution": {
+    "20": 257,
+    "30": 170437,
+    "40": 14835629,
+    "50": 21807728,
+    "60": 10822014,
+    "70": 545813,
+    "80": 7669,
+    "90": 3
+  },
+  "component_averages": {
+    "base_predictability": 19.7725,
+    "complexity_bonus": 43.1917,
+    "pattern_type_penalty": 7.6231,
+    "specific_pattern_penalty": 1.782
+  },
+  "pattern_type_distribution": {
+    "leet_speak": 20942050,
+    "word_special_digit_mixed": 18982125,
+    "keyboard_pattern": 7430028,
+    "special_digit": 835347
+  },
+  "specific_penalty_distribution": {
+    "keyboard patterns": 10149228,
+    "sequential runs": 5833936,
+    "trailing special char only": 3834740,
+    "date pattern detected": 3580073,
+    "repeated char groups": 1334111,
+    "common weak word": 119434
+  },
+  "examples_by_grade": {
+    "A": [
+      {
+        "password": "0!4^A+x($*P@i)8%",
+        "score": 81.16,
+        "grade": "A"
+      },
+      {
+        "password": "0!Fc*i/{sBVT(mO]uE#H",
+        "score": 81.94,
+        "grade": "A"
+      },
+      {
+        "password": "0!Go]D+>[,<m\"",
+        "score": 81.05,
+        "grade": "A"
+      },
+      {
+        "password": "0!HWC{D~;u%{g",
+        "score": 80.64,
+        "grade": "A"
+      },
+      {
+        "password": "0!M@W}l$EZjy{iLh]e",
+        "score": 80.74,
+        "grade": "A"
+      },
+      {
+        "password": "0!U#~Pc>.p%d",
+        "score": 82.07,
+        "grade": "A"
+      },
+      {
+        "password": "0\"%@=>Ht|\\B}5=",
+        "score": 80.42,
+        "grade": "A"
+      },
+      {
+        "password": "0\"`XP*?G@g(|",
+        "score": 80.52,
+        "grade": "A"
+      },
+      {
+        "password": "0\"B'j)WRp>$}Q*",
+        "score": 81.9,
+        "grade": "A"
+      },
+      {
+        "password": "0\"i'!#i=|6x~HL",
+        "score": 81.35,
+        "grade": "A"
+      }
+    ],
+    "A+": [
+      {
+        "password": "2\u00d4\u0012wH\u00b3Ut\u00b5\u00a7\u00d4\u00dd\b'Os\u00c0\u00df",
+        "score": 93.26,
+        "grade": "A+"
+      },
+      {
+        "password": "a\u044dto\u0423}|{\u0415\u04316H\u0415\u0432\u044b\u0448\u0440\u043fy\u0413",
+        "score": 93.26,
+        "grade": "A+"
+      },
+      {
+        "password": "c\u00c1\u00ed6S\u00a8\u009d\u2018\u00e1\\\\\u00e0\u0160\u02dc\u0016)Wq\\\\",
+        "score": 93.26,
+        "grade": "A+"
+      }
+    ],
+    "B": [
+      {
+        "password": "0 Kn$tZZ%2p8",
+        "score": 78.54,
+        "grade": "B"
+      },
+      {
+        "password": "0!!11))^B$cD",
+        "score": 66.4,
+        "grade": "B"
+      },
+      {
+        "password": "0!!>t}On@b/-@",
+        "score": 77.68,
+        "grade": "B"
+      },
+      {
+        "password": "0!!eJ>!<'",
+        "score": 66.65,
+        "grade": "B"
+      },
+      {
+        "password": "0!!LffSAE%t|",
+        "score": 72.91,
+        "grade": "B"
+      },
+      {
+        "password": "0!!LffSiEM;",
+        "score": 67.76,
+        "grade": "B"
+      },
+      {
+        "password": "0!!mE)wf",
+        "score": 67.66,
+        "grade": "B"
+      },
+      {
+        "password": "0!!W?pn_",
+        "score": 66.45,
+        "grade": "B"
+      },
+      {
+        "password": "0!\"%0aL}",
+        "score": 68.98,
+        "grade": "B"
+      },
+      {
+        "password": "0!\"/hSj?",
+        "score": 67.76,
+        "grade": "B"
+      }
+    ],
+    "C": [
+      {
+        "password": "0!!!VJvv",
+        "score": 54.45,
+        "grade": "C"
+      },
+      {
+        "password": "0!!$kK0z",
+        "score": 57.78,
+        "grade": "C"
+      },
+      {
+        "password": "0!!,Gx7q",
+        "score": 65.5,
+        "grade": "C"
+      },
+      {
+        "password": "0!!00VLg",
+        "score": 55.39,
+        "grade": "C"
+      },
+      {
+        "password": "0!!3qL`,",
+        "score": 64.69,
+        "grade": "C"
+      },
+      {
+        "password": "0!!3Uzbt",
+        "score": 61.61,
+        "grade": "C"
+      },
+      {
+        "password": "0!!7OYld",
+        "score": 60.98,
+        "grade": "C"
+      },
+      {
+        "password": "0!!9kRQ?",
+        "score": 64.34,
+        "grade": "C"
+      },
+      {
+        "password": "0!!]jZ0%",
+        "score": 60.97,
+        "grade": "C"
+      },
+      {
+        "password": "0!!aoCt_",
+        "score": 62.92,
+        "grade": "C"
+      }
+    ],
+    "D": [
+      {
+        "password": "0!QAZ2wsx",
+        "score": 44.65,
+        "grade": "D"
+      },
+      {
+        "password": "0\">Access",
+        "score": 47.26,
+        "grade": "D"
+      },
+      {
+        "password": "0\"PLMNBVcx",
+        "score": 51.85,
+        "grade": "D"
+      },
+      {
+        "password": "0#4Me!!!",
+        "score": 50.66,
+        "grade": "D"
+      },
+      {
+        "password": "0#Mnbvcxz",
+        "score": 43.33,
+        "grade": "D"
+      },
+      {
+        "password": "0$$0Candy",
+        "score": 48.87,
+        "grade": "D"
+      },
+      {
+        "password": "0$123456Ss",
+        "score": 45.47,
+        "grade": "D"
+      },
+      {
+        "password": "0$allPass",
+        "score": 51.9,
+        "grade": "D"
+      },
+      {
+        "password": "0$c@R!@#$",
+        "score": 47.19,
+        "grade": "D"
+      },
+      {
+        "password": "0$Estelle",
+        "score": 49.48,
+        "grade": "D"
+      }
+    ],
+    "F": [
+      {
+        "password": "0------Nb",
+        "score": 37.7,
+        "grade": "F"
+      },
+      {
+        "password": "0-=;lkJkl",
+        "score": 37.92,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Aq1234",
+        "score": 36.9,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Asdfds",
+        "score": 36.63,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Asdfgh",
+        "score": 37.83,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Bvcxcv",
+        "score": 37.25,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Cvbnbv",
+        "score": 36.88,
+        "grade": "F"
+      },
+      {
+        "password": "0-=DfgHgf",
+        "score": 37.0,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Dfghgf",
+        "score": 34.66,
+        "grade": "F"
+      },
+      {
+        "password": "0-=Ertytr",
+        "score": 37.19,
+        "grade": "F"
+      }
+    ]
+  }
+}

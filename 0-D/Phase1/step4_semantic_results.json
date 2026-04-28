@@ -1,0 +1,633 @@
+{
+  "total_passwords": 48189550,
+  "dictionary_size": 234450,
+  "dictionary_matches": 18982125,
+  "dictionary_match_percentage": 39.39054214036031,
+  "leet_matches": 3414735,
+  "leet_match_percentage": 7.086048738782578,
+  "keyboard_patterns": 10149228,
+  "keyboard_pattern_percentage": 21.061055768314915,
+  "matched_words": {
+    "marie": 710948,
+    "anne": 649350,
+    "de": 642862,
+    "bo": 569712,
+    "ann": 366800,
+    "as": 346975,
+    "anna": 337499,
+    "go": 324825,
+    "ae": 283167,
+    "splat": 272553,
+    "po": 258503,
+    "chi": 251323,
+    "jean": 244223,
+    "lo": 233471,
+    "di": 223917,
+    "sa": 211519,
+    "al": 209207,
+    "ed": 186779,
+    "on": 181794,
+    "ben": 174479,
+    "ca": 174267,
+    "ea": 164789,
+    "gol": 153744,
+    "og": 149097,
+    "diane": 146559,
+    "ab": 139938,
+    "dee": 134281,
+    "an": 129265,
+    "ai": 126912,
+    "poi": 124676,
+    "beck": 120686,
+    "maria": 120242,
+    "bat": 118920,
+    "ce": 114256,
+    "claude": 111110,
+    "aa": 110055,
+    "abel": 108262,
+    "in": 106392,
+    "fa": 103930,
+    "by": 99020,
+    "charles": 98567,
+    "es": 93646,
+    "adam": 93260,
+    "chang": 93054,
+    "pi": 91688,
+    "pierre": 91033,
+    "ba": 89866,
+    "ie": 88757,
+    "out": 88599,
+    "io": 85689,
+    "st": 85351,
+    "betty": 83007,
+    "yip": 82805,
+    "chen": 82255,
+    "kay": 81140,
+    "chee": 80523,
+    "ra": 79666,
+    "se": 77935,
+    "at": 76835,
+    "hy": 72825,
+    "ju": 72573,
+    "corinne": 71301,
+    "be": 70883,
+    "is": 70657,
+    "yin": 70639,
+    "con": 70422,
+    "na": 70227,
+    "er": 69815,
+    "ga": 68853,
+    "carol": 65777,
+    "cho": 62170,
+    "barbara": 62027,
+    "claire": 61386,
+    "brandon": 60941,
+    "francois": 60451,
+    "log": 60253,
+    "ti": 59863,
+    "david": 59268,
+    "andre": 59021,
+    "da": 58487,
+    "or": 58422,
+    "it": 57770,
+    "os": 57643,
+    "man": 57000,
+    "diana": 56612,
+    "gi": 55546,
+    "ta": 55078,
+    "oe": 54413,
+    "ching": 54278,
+    "oii": 53937,
+    "marc": 53629,
+    "to": 52473,
+    "en": 51782,
+    "ar": 50460,
+    "christie": 50252,
+    "award": 50236,
+    "te": 49988,
+    "si": 49888,
+    "ly": 49594,
+    "ao": 49337
+  },
+  "word_pos_tags": {
+    "proper_noun": 11467209,
+    "adposition": 1814018,
+    "verb": 2808925,
+    "pronoun": 428551,
+    "noun": 6164047,
+    "interjection": 539315,
+    "conjunction": 75557,
+    "adverb": 630289,
+    "unknown": 365601,
+    "adjective": 893003,
+    "subordinating_conjunction": 12829,
+    "number": 11943,
+    "determiner": 21
+  },
+  "pattern_types": {
+    "leet_speak": 20942050,
+    "word_special_digit_mixed": 18982125,
+    "keyboard_pattern": 7430028,
+    "special_digit": 835347
+  },
+  "top_words_by_pos": {
+    "proper_noun": {
+      "marie": 710948,
+      "anne": 649350,
+      "ann": 366800,
+      "anna": 337499,
+      "chi": 251323,
+      "jean": 244223,
+      "sa": 211519,
+      "al": 209207,
+      "ed": 186779,
+      "ben": 174479,
+      "ea": 164789,
+      "ab": 139938,
+      "poi": 124676,
+      "beck": 120686,
+      "maria": 120242,
+      "ce": 114256,
+      "aa": 110055,
+      "abel": 108262,
+      "charles": 98567,
+      "adam": 93260
+    },
+    "adposition": {
+      "bo": 569712,
+      "as": 346975,
+      "on": 181794,
+      "og": 149097,
+      "in": 106392,
+      "by": 99020,
+      "at": 76835,
+      "na": 70227,
+      "ta": 55078,
+      "te": 49988,
+      "ro": 16605,
+      "bal": 15678,
+      "of": 15278,
+      "nu": 12272,
+      "ut": 11869,
+      "ud": 10613,
+      "amy": 4898,
+      "aha": 4728,
+      "per": 3089,
+      "cos": 1835
+    },
+    "verb": {
+      "go": 324825,
+      "ae": 283167,
+      "lo": 233471,
+      "ai": 126912,
+      "ba": 89866,
+      "is": 70657,
+      "ga": 68853,
+      "cho": 62170,
+      "gi": 55546,
+      "en": 51782,
+      "ly": 49594,
+      "ao": 49337,
+      "cite": 45639,
+      "ute": 32768,
+      "bel": 30078,
+      "yo": 29922,
+      "do": 28636,
+      "rose": 26983,
+      "admin": 23918,
+      "ahmed": 23330
+    },
+    "pronoun": {
+      "an": 129265,
+      "it": 57770,
+      "me": 38449,
+      "ya": 32961,
+      "id": 26037,
+      "us": 17561,
+      "he": 16304,
+      "em": 15717,
+      "my": 13982,
+      "all": 12207,
+      "zo": 10983,
+      "she": 10852,
+      "we": 9776,
+      "the": 5651,
+      "her": 4868,
+      "bes": 4523,
+      "you": 3077,
+      "its": 2914,
+      "aby": 2864,
+      "tra": 2330
+    },
+    "noun": {
+      "de": 642862,
+      "po": 258503,
+      "ca": 174267,
+      "gol": 153744,
+      "diane": 146559,
+      "dee": 134281,
+      "bat": 118920,
+      "claude": 111110,
+      "fa": 103930,
+      "es": 93646,
+      "pierre": 91033,
+      "io": 85689,
+      "chee": 80523,
+      "be": 70883,
+      "log": 60253,
+      "andre": 59021,
+      "man": 57000,
+      "christie": 50252,
+      "award": 50236,
+      "chia": 45303
+    },
+    "interjection": {
+      "er": 69815,
+      "ti": 59863,
+      "da": 58487,
+      "oe": 54413,
+      "bu": 40479,
+      "aw": 37319,
+      "ah": 34061,
+      "la": 30331,
+      "ha": 19245,
+      "ni": 18768,
+      "no": 18764,
+      "um": 11903,
+      "ok": 11807,
+      "eh": 11582,
+      "hi": 11206,
+      "fo": 9700,
+      "oh": 9473,
+      "wy": 7568,
+      "ata": 3816,
+      "ait": 3619
+    },
+    "conjunction": {
+      "or": 58422,
+      "and": 11431,
+      "but": 4209,
+      "nor": 960,
+      "plus": 535
+    },
+    "adverb": {
+      "out": 88599,
+      "os": 57643,
+      "ar": 50460,
+      "so": 42566,
+      "ow": 27019,
+      "long": 21110,
+      "om": 17481,
+      "pu": 16307,
+      "ug": 15489,
+      "cal": 15046,
+      "best": 14923,
+      "od": 12504,
+      "well": 10123,
+      "up": 8991,
+      "ever": 8721,
+      "cecile": 7178,
+      "back": 7140,
+      "aaron": 4806,
+      "too": 4323,
+      "casper": 4010
+    },
+    "unknown": {
+      "di": 223917,
+      "to": 52473,
+      "wo": 28397,
+      "nicolas": 19184,
+      "ye": 9434,
+      "vu": 8196,
+      "yn": 7829,
+      "bon": 4521,
+      "sai": 4085,
+      "augustin": 1885,
+      "tur": 1688,
+      "kari": 1072,
+      "dori": 494,
+      "shalom": 425,
+      "vei": 293,
+      "arent": 232,
+      "sten": 167,
+      "biti": 146,
+      "moran": 137,
+      "gest": 129
+    },
+    "adjective": {
+      "splat": 272553,
+      "wert": 27564,
+      "pro": 21607,
+      "big": 20261,
+      "black": 19505,
+      "crazy": 17645,
+      "olivier": 15996,
+      "abe": 14941,
+      "dead": 14111,
+      "ant": 11648,
+      "blue": 11567,
+      "creative": 11507,
+      "alive": 10484,
+      "bad": 10473,
+      "pure": 10057,
+      "anjou": 10019,
+      "dark": 9814,
+      "live": 8194,
+      "cool": 8033,
+      "deep": 6446
+    },
+    "subordinating_conjunction": {
+      "if": 10623,
+      "how": 711,
+      "because": 498,
+      "why": 343,
+      "that": 228,
+      "till": 189,
+      "since": 107,
+      "when": 44,
+      "where": 40,
+      "upon": 16,
+      "although": 10,
+      "despite": 6,
+      "albeit": 6,
+      "whenever": 4,
+      "though": 2,
+      "while": 1,
+      "whether": 1
+    },
+    "number": {
+      "one": 3756,
+      "ten": 1234,
+      "six": 850,
+      "dispatcher": 727,
+      "two": 711,
+      "zero": 613,
+      "million": 554,
+      "billion": 313,
+      "seven": 300,
+      "aileen": 300,
+      "five": 251,
+      "four": 250,
+      "defraudation": 228,
+      "bunty": 210,
+      "nine": 184,
+      "three": 170,
+      "defloration": 168,
+      "twenty": 147,
+      "eleven": 117,
+      "curbstone": 114
+    },
+    "determiner": {
+      "whose": 21
+    }
+  },
+  "wordnet_definitions": {
+    "proper_noun": {
+      "anne": "Queen of England and Scotland and Ireland; daughter if James II and the last of the Stuart monarchs; in 1707 she was the last English ruler to exercise the royal veto over parliament (1665-1714)"
+    },
+    "adposition": {
+      "as": "a very poisonous metallic element that has three allotropic forms; arsenic and arsenic compounds are used as herbicides and insecticides and various alloys; found in arsenopyrite and orpiment and realgar",
+      "on": "in operation or operational"
+    },
+    "verb": {
+      "go": "a time for working (after which you will be relieved by someone else)"
+    },
+    "pronoun": {
+      "an": "an associate degree in nursing",
+      "it": "the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information",
+      "me": "a state in New England"
+    },
+    "noun": {
+      "de": "a Mid-Atlantic state; one of the original 13 colonies",
+      "po": "a radioactive metallic element that is similar to tellurium and bismuth; occurs in uranium ores but can be produced by bombarding bismuth with neutrons in a nuclear reactor",
+      "ca": "a white metallic element that burns with a brilliant light; the fifth most abundant element in the earth's crust; an important component of most plants and animals"
+    },
+    "interjection": {
+      "er": "a trivalent metallic element of the rare earth group; occurs with yttrium",
+      "ti": "a light strong grey lustrous corrosion-resistant metallic element used in strong lightweight alloys (as for airplane parts); the main sources are rutile and ilmenite",
+      "da": "an official prosecutor for a judicial district"
+    },
+    "conjunction": {
+      "or": "a state in northwestern United States on the Pacific",
+      "but": "and nothing more"
+    },
+    "adverb": {
+      "out": "(baseball) a failure by a batter or runner to reach a base safely in baseball",
+      "os": "a mouth or mouthlike opening",
+      "ar": "a colorless and odorless inert gas; one of the six inert gases; comprises approximately 1% of the earth's atmosphere"
+    },
+    "adjective": {
+      "splat": "a single splash",
+      "pro": "an athlete who plays for pay"
+    },
+    "number": {
+      "one": "the smallest whole number or a numeral representing this number",
+      "ten": "the cardinal number that is the sum of nine and one; the base of the decimal system",
+      "six": "the cardinal number that is the sum of five and one"
+    }
+  },
+  "leet_examples": [
+    {
+      "password": "0!!,Gx7q",
+      "leet_words": [
+        "oii"
+      ],
+      "reversed": [
+        "oii"
+      ]
+    },
+    {
+      "password": "0!!]jZ0%",
+      "leet_words": [
+        "oii"
+      ],
+      "reversed": [
+        "oii"
+      ]
+    },
+    {
+      "password": "0!%&j2X1",
+      "leet_words": [
+        "xi"
+      ],
+      "reversed": [
+        "xi"
+      ]
+    },
+    {
+      "password": "0!*EXIATtence*!0",
+      "leet_words": [
+        "io"
+      ],
+      "reversed": [
+        "io"
+      ]
+    },
+    {
+      "password": "0!+/\"S3y",
+      "leet_words": [
+        "sey"
+      ],
+      "reversed": [
+        "sey"
+      ]
+    },
+    {
+      "password": "0!,0R^nC",
+      "leet_words": [
+        "or"
+      ],
+      "reversed": [
+        "or"
+      ]
+    },
+    {
+      "password": "0!/+0W%p",
+      "leet_words": [
+        "tow"
+      ],
+      "reversed": [
+        "tow"
+      ]
+    },
+    {
+      "password": "0!0Lq.J0",
+      "leet_words": [
+        "jo"
+      ],
+      "reversed": [
+        "jo"
+      ]
+    },
+    {
+      "password": "0!128c3U",
+      "leet_words": [
+        "oii"
+      ],
+      "reversed": [
+        "oii"
+      ]
+    },
+    {
+      "password": "0!1_8HNOjpSt",
+      "leet_words": [
+        "oii"
+      ],
+      "reversed": [
+        "oii"
+      ]
+    },
+    {
+      "password": "0!1l$?M!",
+      "leet_words": [
+        "mi"
+      ],
+      "reversed": [
+        "mi"
+      ]
+    },
+    {
+      "password": "0!61d6G2",
+      "leet_words": [
+        "id"
+      ],
+      "reversed": [
+        "id"
+      ]
+    },
+    {
+      "password": "0!;+0%Jd",
+      "leet_words": [
+        "to"
+      ],
+      "reversed": [
+        "to"
+      ]
+    },
+    {
+      "password": "0!=1O\\4z",
+      "leet_words": [
+        "io"
+      ],
+      "reversed": [
+        "io"
+      ]
+    },
+    {
+      "password": "0!=rS%p@>]",
+      "leet_words": [
+        "pa"
+      ],
+      "reversed": [
+        "pa"
+      ]
+    },
+    {
+      "password": "0![@A\\t7h.",
+      "leet_words": [
+        "aa"
+      ],
+      "reversed": [
+        "aa"
+      ]
+    },
+    {
+      "password": "0!^,y60F",
+      "leet_words": [
+        "of"
+      ],
+      "reversed": [
+        "of"
+      ]
+    },
+    {
+      "password": "0!^w?L1E",
+      "leet_words": [
+        "lie"
+      ],
+      "reversed": [
+        "lie"
+      ]
+    },
+    {
+      "password": "0!`Fy`Fy`l09_",
+      "leet_words": [
+        "log"
+      ],
+      "reversed": [
+        "log"
+      ]
+    },
+    {
+      "password": "0!`l[6A3",
+      "leet_words": [
+        "ae"
+      ],
+      "reversed": [
+        "ae"
+      ]
+    }
+  ],
+  "keyboard_examples": [
+    "0!@!qAzXsw",
+    "0!@!qAzxsw",
+    "0!@!qAZxsw",
+    "0!@!qaZxsw",
+    "0!@!QaZxSW",
+    "0!@!qazXsw",
+    "0!@!QAZxSW",
+    "0!@!QaZXSW",
+    "0!AF*VCx",
+    "0!BvcioV",
+    "0!H2tGy0",
+    "0!ic)rFv",
+    "0!JEseRT7",
+    "0!Q_Cvbo",
+    "0!QAZ2wsx",
+    "0!Qazxsw21qaz0",
+    "0!W1@z$678(*+^_^)k",
+    "0!wiWSxA",
+    "0!Yf!WrFVs~}",
+    "0!z?0aBe1mUIoz"
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "pattern_type_penalties": {
+    "word_special_digit_mixed": 25,
+    "word_special_digit_upper": 20,
+    "word_special_digit_lower": 18,
+    "word_digit": 15,
+    "word_special": 12,
+    "word_only": 10,
+    "leet_speak": 8,
+    "keyboard_pattern": 6,
+    "special_digit": 4,
+    "digit_only": 2,
+    "other": 0
+  },
+  "specific_pattern_penalties": {
+    "asdf": 10,
+    "qwerty": 10,
+    "123456": 10,
+    "password": 15,
+    "admin": 12,
+    "login": 8,
+    "user": 6,
+    "!$": 5,
+    "!!$": 8,
+    "123$": 7,
+    "1234$": 9,
+    "^admin": 8,
+    "^user": 6,
+    "^pass": 10
+  },
+  "complexity_bonuses": {
+    "length": {
+      "8": 5,
+      "10": 10,
+      "12": 15,
+      "14": 20,
+      "16": 25
+    },
+    "charsets": {
+      "1": 0,
+      "2": 5,
+      "3": 15,
+      "4": 25
+    }
+  },
+  "test_results": [
+    {
+      "password": "Password123!",
+      "final_score": 26.97,
+      "base_predictability": 19.97,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 25,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 20.0 + Complexity: 40 - Pattern: 8 - Specific: 25 = 27.0"
+    },
+    {
+      "password": "asdf",
+      "final_score": 9.39,
+      "base_predictability": 25.39,
+      "pattern_type_penalty": 6,
+      "specific_pattern_penalty": 10,
+      "complexity_bonus": 0,
+      "length": 4,
+      "breakdown": "Base: 25.4 + Complexity: 0 - Pattern: 6 - Specific: 10 = 9.4"
+    },
+    {
+      "password": "Admin123!",
+      "final_score": 16.78,
+      "base_predictability": 19.78,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 25,
+      "complexity_bonus": 30,
+      "length": 9,
+      "breakdown": "Base: 19.8 + Complexity: 30 - Pattern: 8 - Specific: 25 = 16.8"
+    },
+    {
+      "password": "MySecurePass2024!",
+      "final_score": 52.94,
+      "base_predictability": 15.94,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 5,
+      "complexity_bonus": 50,
+      "length": 17,
+      "breakdown": "Base: 15.9 + Complexity: 50 - Pattern: 8 - Specific: 5 = 52.9"
+    }
+  ],
+  "real_results": [
+    {
+      "password": "P $x\\x9C",
+      "final_score": 23.3,
+      "base_predictability": 1.3,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 1.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 23.3"
+    },
+    {
+      "password": "P \\\"\\xC3N\\u0018m",
+      "final_score": 54.24,
+      "base_predictability": 12.24,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 50,
+      "length": 16,
+      "breakdown": "Base: 12.2 + Complexity: 50 - Pattern: 8 - Specific: 0 = 54.2"
+    },
+    {
+      "password": "P \\x83\\x85\\x9F\\xB5",
+      "final_score": 55.91,
+      "base_predictability": 13.91,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 50,
+      "length": 18,
+      "breakdown": "Base: 13.9 + Complexity: 50 - Pattern: 8 - Specific: 0 = 55.9"
+    },
+    {
+      "password": "P \\xD3\\e[0",
+      "final_score": 36.26,
+      "base_predictability": 9.26,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 35,
+      "length": 10,
+      "breakdown": "Base: 9.3 + Complexity: 35 - Pattern: 8 - Specific: 0 = 36.3"
+    },
+    {
+      "password": "P `\\xB6'\\xF7",
+      "final_score": 37.55,
+      "base_predictability": 5.55,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 5.6 + Complexity: 40 - Pattern: 8 - Specific: 0 = 37.6"
+    },
+    {
+      "password": "P!!!rkiN1",
+      "final_score": 36.35,
+      "base_predictability": 14.35,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 9,
+      "breakdown": "Base: 14.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 36.3"
+    },
+    {
+      "password": "p!!\"ab7M",
+      "final_score": 30.46,
+      "base_predictability": 8.46,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 8.5 + Complexity: 30 - Pattern: 8 - Specific: 0 = 30.5"
+    },
+    {
+      "password": "P!!%,0sM",
+      "final_score": 28.38,
+      "base_predictability": 6.38,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 6.4 + Complexity: 30 - Pattern: 8 - Specific: 0 = 28.4"
+    },
+    {
+      "password": "p!!&3)kZ",
+      "final_score": 27.19,
+      "base_predictability": 5.19,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 5.2 + Complexity: 30 - Pattern: 8 - Specific: 0 = 27.2"
+    },
+    {
+      "password": "p!!0N\"uP",
+      "final_score": 31.31,
+      "base_predictability": 9.31,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 9.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 31.3"
+    },
+    {
+      "password": "P!!0zvjI",
+      "final_score": 33.53,
+      "base_predictability": 11.53,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 11.5 + Complexity: 30 - Pattern: 8 - Specific: 0 = 33.5"
+    },
+    {
+      "password": "p!!5[+5V",
+      "final_score": 30.99,
+      "base_predictability": 8.99,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 9.0 + Complexity: 30 - Pattern: 8 - Specific: 0 = 31.0"
+    },
+    {
+      "password": "P!!9034f",
+      "final_score": 39.77,
+      "base_predictability": 17.77,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 17.8 + Complexity: 30 - Pattern: 8 - Specific: 0 = 39.8"
+    },
+    {
+      "password": "p!!9@BEUEeM&",
+      "final_score": 40.76,
+      "base_predictability": 8.76,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 8.8 + Complexity: 40 - Pattern: 8 - Specific: 0 = 40.8"
+    },
+    {
+      "password": "P!!9uHxPEP%P",
+      "final_score": 39.7,
+      "base_predictability": 7.7,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 7.7 + Complexity: 40 - Pattern: 8 - Specific: 0 = 39.7"
+    },
+    {
+      "password": "P!!B6Ovj9",
+      "final_score": 32.01,
+      "base_predictability": 10.01,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 9,
+      "breakdown": "Base: 10.0 + Complexity: 30 - Pattern: 8 - Specific: 0 = 32.0"
+    },
+    {
+      "password": "p!!bDD1U",
+      "final_score": 33.24,
+      "base_predictability": 11.24,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 11.2 + Complexity: 30 - Pattern: 8 - Specific: 0 = 33.2"
+    },
+    {
+      "password": "p!!E^{9AcPW*[",
+      "final_score": 36.39,
+      "base_predictability": 4.39,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 13,
+      "breakdown": "Base: 4.4 + Complexity: 40 - Pattern: 8 - Specific: 0 = 36.4"
+    },
+    {
+      "password": "P!!gT7eT",
+      "final_score": 30.45,
+      "base_predictability": 8.45,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 8.4 + Complexity: 30 - Pattern: 8 - Specific: 0 = 30.4"
+    },
+    {
+      "password": "p!!k2X+E",
+      "final_score": 32.05,
+      "base_predictability": 10.05,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 10.1 + Complexity: 30 - Pattern: 8 - Specific: 0 = 32.1"
+    }
+  ],
+  "top_10_real": [
+    {
+      "password": "P \\x83\\x85\\x9F\\xB5",
+      "final_score": 55.91,
+      "base_predictability": 13.91,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 50,
+      "length": 18,
+      "breakdown": "Base: 13.9 + Complexity: 50 - Pattern: 8 - Specific: 0 = 55.9"
+    },
+    {
+      "password": "P \\\"\\xC3N\\u0018m",
+      "final_score": 54.24,
+      "base_predictability": 12.24,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 50,
+      "length": 16,
+      "breakdown": "Base: 12.2 + Complexity: 50 - Pattern: 8 - Specific: 0 = 54.2"
+    },
+    {
+      "password": "p!!9@BEUEeM&",
+      "final_score": 40.76,
+      "base_predictability": 8.76,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 8.8 + Complexity: 40 - Pattern: 8 - Specific: 0 = 40.8"
+    },
+    {
+      "password": "P!!9034f",
+      "final_score": 39.77,
+      "base_predictability": 17.77,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 17.8 + Complexity: 30 - Pattern: 8 - Specific: 0 = 39.8"
+    },
+    {
+      "password": "P!!9uHxPEP%P",
+      "final_score": 39.7,
+      "base_predictability": 7.7,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 7.7 + Complexity: 40 - Pattern: 8 - Specific: 0 = 39.7"
+    },
+    {
+      "password": "P `\\xB6'\\xF7",
+      "final_score": 37.55,
+      "base_predictability": 5.55,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 12,
+      "breakdown": "Base: 5.6 + Complexity: 40 - Pattern: 8 - Specific: 0 = 37.6"
+    },
+    {
+      "password": "p!!E^{9AcPW*[",
+      "final_score": 36.39,
+      "base_predictability": 4.39,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 40,
+      "length": 13,
+      "breakdown": "Base: 4.4 + Complexity: 40 - Pattern: 8 - Specific: 0 = 36.4"
+    },
+    {
+      "password": "P!!!rkiN1",
+      "final_score": 36.35,
+      "base_predictability": 14.35,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 9,
+      "breakdown": "Base: 14.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 36.3"
+    },
+    {
+      "password": "P \\xD3\\e[0",
+      "final_score": 36.26,
+      "base_predictability": 9.26,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 35,
+      "length": 10,
+      "breakdown": "Base: 9.3 + Complexity: 35 - Pattern: 8 - Specific: 0 = 36.3"
+    },
+    {
+      "password": "P!!0zvjI",
+      "final_score": 33.53,
+      "base_predictability": 11.53,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 11.5 + Complexity: 30 - Pattern: 8 - Specific: 0 = 33.5"
+    }
+  ],
+  "bottom_10_real": [
+    {
+      "password": "p!!bDD1U",
+      "final_score": 33.24,
+      "base_predictability": 11.24,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 11.2 + Complexity: 30 - Pattern: 8 - Specific: 0 = 33.2"
+    },
+    {
+      "password": "p!!k2X+E",
+      "final_score": 32.05,
+      "base_predictability": 10.05,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 10.1 + Complexity: 30 - Pattern: 8 - Specific: 0 = 32.1"
+    },
+    {
+      "password": "P!!B6Ovj9",
+      "final_score": 32.01,
+      "base_predictability": 10.01,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 9,
+      "breakdown": "Base: 10.0 + Complexity: 30 - Pattern: 8 - Specific: 0 = 32.0"
+    },
+    {
+      "password": "p!!0N\"uP",
+      "final_score": 31.31,
+      "base_predictability": 9.31,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 9.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 31.3"
+    },
+    {
+      "password": "p!!5[+5V",
+      "final_score": 30.99,
+      "base_predictability": 8.99,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 9.0 + Complexity: 30 - Pattern: 8 - Specific: 0 = 31.0"
+    },
+    {
+      "password": "p!!\"ab7M",
+      "final_score": 30.46,
+      "base_predictability": 8.46,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 8.5 + Complexity: 30 - Pattern: 8 - Specific: 0 = 30.5"
+    },
+    {
+      "password": "P!!gT7eT",
+      "final_score": 30.45,
+      "base_predictability": 8.45,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 8.4 + Complexity: 30 - Pattern: 8 - Specific: 0 = 30.4"
+    },
+    {
+      "password": "P!!%,0sM",
+      "final_score": 28.38,
+      "base_predictability": 6.38,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 6.4 + Complexity: 30 - Pattern: 8 - Specific: 0 = 28.4"
+    },
+    {
+      "password": "p!!&3)kZ",
+      "final_score": 27.19,
+      "base_predictability": 5.19,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 5.2 + Complexity: 30 - Pattern: 8 - Specific: 0 = 27.2"
+    },
+    {
+      "password": "P $x\\x9C",
+      "final_score": 23.3,
+      "base_predictability": 1.3,
+      "pattern_type_penalty": 8,
+      "specific_pattern_penalty": 0,
+      "complexity_bonus": 30,
+      "length": 8,
+      "breakdown": "Base: 1.3 + Complexity: 30 - Pattern: 8 - Specific: 0 = 23.3"
+    }
+  ]
+}

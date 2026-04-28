@@ -1,0 +1,166 @@
+{
+  "total_passwords": 71149350,
+  "unique_passwords": 71149350,
+  "top_passwords": {
+    "P $x\\x9C": 1,
+    "P \\\"\\xC3N\\u0018m": 1,
+    "P \\x83\\x85\\x9F\\xB5": 1,
+    "P \\xD3\\e[0": 1,
+    "P `\\xB6'\\xF7": 1,
+    "P!!!rkiN1": 1,
+    "p!!\"ab7M": 1,
+    "P!!%,0sM": 1,
+    "p!!&3)kZ": 1,
+    "p!!0N\"uP": 1,
+    "P!!0zvjI": 1,
+    "p!!5[+5V": 1,
+    "P!!9034f": 1,
+    "p!!9@BEUEeM&": 1,
+    "P!!9uHxPEP%P": 1,
+    "P!!B6Ovj9": 1,
+    "p!!bDD1U": 1,
+    "p!!E^{9AcPW*[": 1,
+    "P!!gT7eT": 1,
+    "p!!k2X+E": 1,
+    "P!!ka8oo": 1,
+    "P!!L~$&6lQ&`{": 1,
+    "P!!mKo6*": 1,
+    "P!!olgara2": 1,
+    "p!!qW3P9": 1,
+    "P!!re0uI": 1,
+    "P!!re7und": 1,
+    "P!!sitka2": 1,
+    "p!!SL3K^": 1,
+    "p!!Wo4sA": 1,
+    "P!!ww0NBH1": 1,
+    "P!!x,Lt.V8.V0": 1,
+    "p!\"2xVi(": 1,
+    "p!\"ApMh6": 1,
+    "P!\"Kn0s0": 1,
+    "P!\"s]2nU": 1,
+    "p!\"TC-]9": 1,
+    "p!\"Tr6`m": 1,
+    "p!\"Z1Ml4": 1,
+    "P!#*D2BnT": 1,
+    "P!#0py?,": 1,
+    "p!#52_S1": 1,
+    "P!#^]{v1l/&a": 1,
+    "P!#auA2Grzx@": 1,
+    "p!#cXR9y": 1,
+    "P!#EL.9g": 1,
+    "P!#h$sf3": 1,
+    "P!#l0J{,": 1,
+    "p!#qIw0h": 1,
+    "p!#smxER2": 1
+  },
+  "length_stats": {
+    "min": 8,
+    "max": 32,
+    "mean": 13.281926679583158,
+    "median": 12
+  },
+  "variability_metrics": {
+    "with_digits": {
+      "count": 71149350,
+      "percentage": 100.0
+    },
+    "with_uppercase": {
+      "count": 71149350,
+      "percentage": 100.0
+    },
+    "with_lowercase": {
+      "count": 71149350,
+      "percentage": 100.0
+    },
+    "with_special_chars": {
+      "count": 71149350,
+      "percentage": 100.0
+    }
+  },
+  "category_stats": {
+    "P": {
+      "total": 6438232,
+      "unique": 6438232,
+      "duplicates": 0,
+      "avg_length": 13.698539909714343,
+      "top_password": "P $x\\x9C"
+    },
+    "Q": {
+      "total": 2330379,
+      "unique": 2330379,
+      "duplicates": 0,
+      "avg_length": 16.20792798081342,
+      "top_password": "q!!!!z9W8$Y_WF"
+    },
+    "R": {
+      "total": 6133677,
+      "unique": 6133677,
+      "duplicates": 0,
+      "avg_length": 13.49011058130384,
+      "top_password": "R Siddhesh123#"
+    },
+    "S": {
+      "total": 6653179,
+      "unique": 6653179,
+      "duplicates": 0,
+      "avg_length": 13.852491868924615,
+      "top_password": "S\u0001\u0001\\\\UpV\u0001\u0001\u0001\u0001\\\\3\u0001SpV7V\u0001\u0001\u0001\u0001\u0001"
+    },
+    "T": {
+      "total": 4590076,
+      "unique": 4590076,
+      "duplicates": 0,
+      "avg_length": 13.930183726805394,
+      "top_password": "t\u00017\bt?J5="
+    },
+    "U": {
+      "total": 3979858,
+      "unique": 3979858,
+      "duplicates": 0,
+      "avg_length": 14.210882147051478,
+      "top_password": "u\u00043\u0410\u043bT*M\u044f\u0438"
+    },
+    "V": {
+      "total": 4297234,
+      "unique": 4297234,
+      "duplicates": 0,
+      "avg_length": 14.059333515465996,
+      "top_password": "V\u0004?2\u0012?>m"
+    },
+    "W": {
+      "total": 4227081,
+      "unique": 4227081,
+      "duplicates": 0,
+      "avg_length": 14.573592273249554,
+      "top_password": "w\u0002\u0001D0\u001b{\u00f0"
+    },
+    "X": {
+      "total": 2793280,
+      "unique": 2793280,
+      "duplicates": 0,
+      "avg_length": 15.30000358002062,
+      "top_password": "X 1Ebd.N923aw"
+    },
+    "Y": {
+      "total": 3290066,
+      "unique": 3290066,
+      "duplicates": 0,
+      "avg_length": 14.590655932130236,
+      "top_password": "y\u0003?3\u0012-??B?"
+    },
+    "Z": {
+      "total": 2879550,
+      "unique": 2879550,
+      "duplicates": 0,
+      "avg_length": 15.340528207532428,
+      "top_password": "z 2 T<E \ufffd\ufffd\ufffd 5 \ufffd\ufffd\ufffd\ufffd 777 \ufffd\ufffd\ufffd"
+    },
+    "Symbols": {
+      "total": 23536738,
+      "unique": 23536738,
+      "duplicates": 0,
+      "avg_length": 11.331019574590158,
+      "top_password": "!!!!!!!!1Aa"
+    }
+  }
+}
