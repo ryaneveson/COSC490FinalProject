@@ -8,7 +8,7 @@
 | Ryan Eveson | 99775389 | Devin Huang | 86828886 |
 | Joaquin Almora | 68642073 | Maria Sato | 14489231 |
 | Phong Nguyen | 55533582 | Leila Saparbek | 
-| Ali Afoud | 34031898 | 
+|| | Ali Afoud | 34031898 | 
 
 
 ---
